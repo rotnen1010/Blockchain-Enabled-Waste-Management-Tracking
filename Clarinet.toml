@@ -1,0 +1,24 @@
+[project]
+name = 'Blockchain-Enabled-Waste-Management-Tracking'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.environmental-impact]
+path = 'contracts/environmental-impact.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.incentive-distribution]
+path = 'contracts/incentive-distribution.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
