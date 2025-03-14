@@ -7,3 +7,5 @@ U
 %contracts/incentive-distribution.clar,3/1/31cce6a569f710aad680122b9d77778707879f4c
 R
 "tests/environmental-impact.test.ts,b/9/b961151ac0e41ad9eb6aade97665fd44a9944e45
+T
+$tests/incentive-distribution.test.ts,8/e/8e4ae29d9f8b5cfe3ea7bde38d8a9a88e64abf39
